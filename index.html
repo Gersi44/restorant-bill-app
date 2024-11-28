@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Kaffe Krraba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bar Kaffe Krraba</h1>
+        <h3 class="menu-btn">Menu</h3>
+    </header>
+    <section>
+        <form class="billing">
+            <div class="input-box">
+                <label for="item-name" class="c-white">Emri i artikullit</label>
+                <input id="item-name" list="menu" required class="p1" placeholder="Vendos emrin e artikullit">
+                <datalist id="menu">
+                    <option value="hot coffee">
+                    <option value="special coffee">
+                    <option value="mango shake">
+                    <option value="cold cream coffee">
+                    <option value="chocolate milk">
+                    <option value="roohafza sharbat">
+                    <option value="roohafza milk shake">
+                    <option value="espresso coffee">
+                    <option value="lemon squash">
+                    <option value="badam shake">
+                    <option value="chocolate shake">
+                    <option value="stawberry shake">
+                    <option value="kesar shake">
+                    <option value="banana shake">
+                    <option value="bisleri">
+                </datalist>
+            </div>
+            <div class="input-box">
+                <label for="item-qty"  class="c-white">Sasia</label>
+                <input type="number" id="item-qty" class="p1" value="1" min="1">
+            </div>
+            <!-- <div class="input-box">
+                <label for="price"  class="c-white">Price</label>
+                <div class="price-box p1">Rs.10</div>
+            </div> -->
+            <div class="btn-div input-box">
+                <input type="button" value="Submit" class="btn submit-btn">
+            </div>
+        </form>
+        <div class="bill ">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pershkrimi</th>
+                        <th>Vlera</th>
+                        <th>Sasia</th>
+                        <th>Totali</th>
+                        <th class="action-row">Veprim</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td>Coffee</td>
+                        <td>RS.10</td>
+                        <td>2</td>
+                        <td>RS.20</td>
+                        <td  class="action-row"><button class="action-btn">X</button></td>
+                    </tr> -->
+                    <!-- <tr>
+                        <td>Coffee</td>
+                        <td>RS.10</td>
+                        <td>2</td>
+                        <td>RS.20</td>
+                        <td  class="action-row"><button class="action-btn">X</button></td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <div class="details">
+                <div class="info-div">
+                    <p><span>Nr Tel  :</span> +355685266894</p>
+                    <p><span>Adresa :</span> SH08, Krrabe</p>
+                    <p><span>E-mail :</span> barcoffeekrraba@gmail.com</p>
+                </div>
+                <div class="amount">
+                    <div class="cost">
+                        <ul>
+                            <li>Nentotali</li>
+                            <li>Taksa</li>
+                        </ul>
+                        <ul>
+                            <li class="bold subtotal">0L</li>
+                            <li class="bold tax">0%</li>
+                        </ul>
+                    </div>
+                    <div class="total">
+                        <p class="bold">TOTAL</p>
+                        <p class="bold total-price">0L</p>
+                    </div>
+                    
+                    <div class="button btn-div">
+                        <button class="btn print-btn">Printo Faturen</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Print -->
+        <h2 class="greeting">Faleminderit! THANK YOU!</h2>
+        
+    </section>
+
+    
+    
+
+
+    <!-- MENU -->
+    <div class="menu">
+        <button class="close-btn">x</button>
+        <div class="wrapper">
+            
+            <ul>
+                <li>Kaffe e nxehte</li>
+                <li>Kaffe speciale</li>
+                <li>Mango shake</li>
+                <li>Kaffe me krem te ftohte</li>
+                <li>Cokollat me qumesht</li>
+                <li>roohafza sharbat</li>
+                <li>roohafza me qumesht</li>
+                <li>Kaffe ekspres</li>
+                <li>kungull limoni</li>
+                <li>badam shake</li>
+                <li>cokollat shake</li>
+                <li>luleshtrylle shake</li>
+                <li>kesar shake</li>
+                <li>banane shake</li>
+                <li>bisleri</li>
+            </ul>
+            <ul class="right">
+                <li>60L</li>
+                <li>70L</li>
+                <li>100L</li>
+                <li>90L</li>
+                <li>120L</li>
+                <li>80L</li>
+                <li>90L</li>
+                <li>100L</li>
+                <li>50L</li>
+                <li>60L</li>
+                <li>80L</li>
+                <li>80L</li>
+                <li>66L</li>
+                <li>50L</li>
+                <li>30L</li>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
